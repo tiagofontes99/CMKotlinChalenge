@@ -3,10 +3,11 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 import kotlin.collections.ArrayList
 
-class Pessoa (val nome: String,val dataDeNascimento: Date,var  posicao: Posicao) : Movimentavel{
+class Pessoa (val nome: String,val dataDeNascimento: Date,) : Movimentavel{
 
     var  veiculos: ArrayList<Veiculo> = ArrayList()
     var  carta: Carta = Carta()
+    var  posicao: Posicao = Posicao()
 
 
     fun comprarVeiculo(veiculos: Veiculo) {}
