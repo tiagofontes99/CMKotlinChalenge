@@ -1,4 +1,4 @@
-package pt.ulusofona.cm.kotlin.challenge.classes
+package pt.ulusofona.cm.kotlin.challenge.models
 
 class Veiculo {
 
