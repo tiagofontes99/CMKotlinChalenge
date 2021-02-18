@@ -1,8 +1,6 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Veiculo {
-
-    fun Veiculo(identificador: String){}
+class Veiculo (var identificador: String){
 
     fun requerCarta():Boolean{
         return true

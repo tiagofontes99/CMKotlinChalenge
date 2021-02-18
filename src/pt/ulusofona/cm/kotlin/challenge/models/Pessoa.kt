@@ -1,9 +1,8 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 import java.util.*
 
-class Pessoa {
+class Pessoa (var nome: String,var  veiculos: List<Veiculo>,var  dataDeNascimento: Date,var  carta: Carta,var  posicao: Posicao){
 
-    fun Pessoa(nome: String, veiculos: List<Veiculo>, dataDeNascimento: Date, carta: Carta, posicao: Posicao){}
 
     fun comprarVeiculo(veiculos: Veiculo) {}
 

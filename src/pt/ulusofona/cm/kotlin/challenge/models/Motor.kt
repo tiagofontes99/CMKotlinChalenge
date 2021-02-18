@@ -1,8 +1,8 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Motor {
+class Motor(var cavalos: Int,var cilindrada: Int) {
 
-    fun Motor(cavalos: Int, cilindrada: Int){}
+
 
 
 }
