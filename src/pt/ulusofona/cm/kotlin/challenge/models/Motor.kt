@@ -1,8 +1,5 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Motor {
-
-
-
+class Motor(cavalos: Int , cilindrada : Int , ligado : Boolean) {
 
 }
