@@ -4,8 +4,8 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 
 open class Veiculo(open val identificador: String) : Movimentavel{
 
-    fun requerCarta() : Boolean{
-        return false
+    open fun requerCarta(result : Boolean) : Boolean{
+        return result
     }
 
 }
