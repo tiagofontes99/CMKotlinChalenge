@@ -7,7 +7,7 @@ import java.util.*
 open class Veiculo(open val identificador: String) : Movimentavel{
     var posicao : Posicao = Posicao()
 
-    var dataDeAquisicao : Date = Date()
+    open var dataDeAquisicao : Date = Date()
 
     open fun requerCarta() : Boolean{
         return true
