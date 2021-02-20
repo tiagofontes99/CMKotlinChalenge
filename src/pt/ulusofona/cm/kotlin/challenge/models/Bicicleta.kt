@@ -1,6 +1,7 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
 import java.time.LocalDateTime
+import java.util.*
 
 class Bicicleta (override val identificador : String): Veiculo(
     identificador){
@@ -8,5 +9,7 @@ class Bicicleta (override val identificador : String): Veiculo(
     override fun requerCarta(): Boolean {
         return false
     }
+
+
 
 }
