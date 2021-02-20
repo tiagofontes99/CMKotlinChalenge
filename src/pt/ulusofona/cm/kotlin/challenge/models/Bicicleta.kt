@@ -1,4 +1,8 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Bicicleta {
+import java.time.LocalDateTime
+
+class Bicicleta (): Veiculo(
+    identificador = "teste", posicao = Posicao(),
+    dataDeAquisicao =  LocalDateTime.now()){
 }

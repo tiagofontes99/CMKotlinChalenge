@@ -1,5 +1,6 @@
 package pt.ulusofona.cm.kotlin.challenge.models
+import java.time.LocalDateTime
 
-class Veiculo {
+open class Veiculo(var identificador: String, var posicao: Posicao, var dataDeAquisicao: LocalDateTime){
 
 }

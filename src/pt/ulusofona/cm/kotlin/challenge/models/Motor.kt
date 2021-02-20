@@ -1,5 +1,8 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Motor(cavalos: Int , cilindrada : Int , ligado : Boolean) {
+import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
+
+class Motor(var cavalos: Int , var cilindrada : Int ) : Ligavel {
+    var ligado : Boolean = false
 
 }
