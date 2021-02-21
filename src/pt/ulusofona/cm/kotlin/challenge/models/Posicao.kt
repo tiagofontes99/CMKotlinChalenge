@@ -8,5 +8,8 @@ open class Posicao(var x: Int = 0 ,var y: Int = 0 ) : Movimentavel{
         this.x = x
         this.y = y
     }
+    fun getPosicao() : String{
+        return "x = $x , y = $y"
+    }
 
 }
